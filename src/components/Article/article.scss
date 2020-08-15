@@ -136,3 +136,20 @@
     background: #000;
   }
 }
+
+
+#main-content.right-sidebar {
+  margin-left: 0;
+  margin-right: 2%;
+}
+
+.one-sidebar#sidebar {
+  width: 25%;
+  float: left;
+  clear: none;
+}
+
+#main-content h1 {
+  font-family: 'Arial-b';
+  font-size: 24px;
+}

@@ -1198,3 +1198,9 @@ span.delimiter {
     }
   }
 }
+
+header #header-row-3 .region-header {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}

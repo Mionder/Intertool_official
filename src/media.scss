@@ -993,7 +993,7 @@
     display: none;
   }
 
-  #sidebar.article {
+  .two-column #sidebar.article {
     width: 100%;
     margin-top: 20px;
   }
@@ -1001,7 +1001,11 @@
   #triptych.comparison {
     display: none;
   }
-
+  .two-column .one-sidebar#main-content {
+    width: 100%;
+    margin-left: 0%;
+    float: left;
+  }
   .comparison-link {
     display: flex;
     align-items: center;
@@ -1487,6 +1491,11 @@
 @media screen and (max-width: 640px) {
   #cart .field {
     padding: 25px 10px;
+  }
+
+  #article .field-content .field-text {
+    float: left;
+    width: 100%;
   }
 
   #cart .field.field_2_2 .order_reg {
