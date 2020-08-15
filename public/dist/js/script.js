@@ -6,10 +6,6 @@ $(document).ready(function(){
     $(this).children('.dropdown').addClass('active');
      $(this).next('.dropdown').addClass('active');
   });
-});
-
-
-$(document).ready(function(){
   $('.expanded').mouseleave(function(){
     $(this).children('.dropdown').removeClass('active');
     $(this).next('.dropdown').removeClass('active');
@@ -19,137 +15,79 @@ $(document).ready(function(){
 
 $(function() {
   $(".youtube-video").each(function() {
-// Based on the YouTube ID, we can easily find the thumbnail image
-$(this).css({'background-image': 'url(https://img.youtube.com/vi/' + this.id + '/0.jpg)'});
+      // Based on the YouTube ID, we can easily find the thumbnail image
+      $(this).css({'background-image': 'url(https://img.youtube.com/vi/' + this.id + '/0.jpg)'});
 
-// Overlay the Play icon to make it look like a video player
-$(this).append($('<div/>', {'class': 'play'}));
+      // Overlay the Play icon to make it look like a video player
+      $(this).append($('<div/>', {'class': 'play'}));
 
-$(document).delegate('#'+this.id, 'click', function() {
-// Create an iFrame with autoplay set to true
-var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=0&autohide=1";
-if ($(this).data('params')) iframe_url+='&'+$(this).data('params');
+      $(document).delegate('#'+this.id, 'click', function() {
+      // Create an iFrame with autoplay set to true
+      var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=0&autohide=1";
+      if ($(this).data('params')) iframe_url+='&'+$(this).data('params');
 
-// The height and width of the iFrame should be the same as parent
-var iframe = $('<iframe/>', {'frameborder': '0','allowfullscreen': 'allowfullscreen', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
+      // The height and width of the iFrame should be the same as parent
+      var iframe = $('<iframe/>', {'frameborder': '0','allowfullscreen': 'allowfullscreen', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
 
-// Replace the YouTube thumbnail with YouTube HTML5 Player
-$(this).replaceWith(iframe);
+      // Replace the YouTube thumbnail with YouTube HTML5 Player
+      $(this).replaceWith(iframe);
 
-
-
-
-
-$('.close-video').click(function(){
-  $('#about-form iframe').attr({'src': iframe_url});
+      $('.close-video').click(function(){
+        $('#about-form iframe').attr({'src': iframe_url});
+      });
+    });
+  });
 });
-
-
-});
-});
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$("a.popup").click(function(){
-  return false;
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 $(document).ready(function(){
+  $("a.popup").click(function(){
+    return false;
+  });
+
   $('.close').click(function(){
     $(this).parent().removeClass('active');
     $(this).parents('.mobile-filter-side').animate({'right': '-100%'});
     $(this).parents('.white_mob').animate({'left': '-100%'});
     $('body').removeClass('menu_active');
   });
-});
-$(document).ready(function(){
   $('.mobile-menu-btn').click(function(){
     $('.mobile-menu').addClass('active');
     $('body').addClass('menu_active');
   });
-});
-$(document).ready(function(){
   $('.expanded_click').click(function(){
     $(this).toggleClass('active')
     $(this).find('.dropdown').toggleClass('active')
     $(this).next('.dropdown').toggleClass('active')
   });
-});
-$(document).ready(function(){
   $('.cause').click(function(){
     $('.mobile-filter-side').css({'right': '0'});
     $('body').addClass('menu_active');
   });
+  $('.expanded').click(function(){
+    $(this).children('.dropdown_sidebar_menu').toggleClass('active');
+    $(this).next('.dropdown_sidebar_menu').toggleClass('active');
+  });
+  $('.colorbox_cart_btn').click(function(){
+    $('.cart-popup').toggleClass('active');
+    $(this).toggleClass('active');
+  });
+  $('.cart-popup .wrap .head-cart .head .close').click(function(){
+    $('.cart-popup').toggleClass('active');
+    $(this).toggleClass('active');
+  });
+  $('a.popup-1').on("click",function(){
+    $('.popup-form-1').fadeIn();
+  });
+  if (!isMobile) {
+      $('#block-cart .dropdown.dropdown-cart .product').jScrollPane();
+  }
 });
+
 // $(document).ready(function(){
 //   $('.menu-mlide-1').click(function(){
 //     $('.white_mob').animate({'left': '0'});
 //   });
 // });
-$(document).ready(function(){
-  $('.expanded').click(function(){
-    $(this).children('.dropdown_sidebar_menu').toggleClass('active');
-    $(this).next('.dropdown_sidebar_menu').toggleClass('active');
-  });
-});
-
-
-$(document).ready(function(){
-  $('.colorbox_cart_btn').click(function(){
-    $('.cart-popup').toggleClass('active');
-    $(this).toggleClass('active');
-  });
-});
-$(document).ready(function(){
-  $('.cart-popup .wrap .head-cart .head .close').click(function(){
-    $('.cart-popup').toggleClass('active');
-    $(this).toggleClass('active');
-  });
-});
-
-
-
-
-
-$(document).ready(function(){
-  $('a.popup-1').on("click",function(){
-    $('.popup-form-1').fadeIn();
-  });
-});
 
 
 $(document).ready(function(){
@@ -611,35 +549,9 @@ $("a.colorbox_video").colorbox({
 });
 
 
-
-
-
-
-
-
-
-
-
-
-// $("a.colorbox_cart").colorbox({
-//   iframe: true,
-//   width: '80%',
-//   height: '500px',
-//   scrolling: false
-// });
-
-
-
-
-  $(document).ready(function(){
-    $('#bottom-info .field-content .field-text ').jScrollPane();
-  })
-
-
-
-
-
-
+$(document).ready(function(){
+  $('#bottom-info .field-content .field-text ').jScrollPane();
+});
 
 var isMobile = false;
 // проверка на размер экрана (размер я брал вроде с Bootstrap-а)
