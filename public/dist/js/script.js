@@ -1,5 +1,22 @@
 
 "use strict";
+
+$(document).ready(function(){
+  $('.expanded').hover(function(){
+    $(this).children('.dropdown').addClass('active');
+     $(this).next('.dropdown').addClass('active');
+  });
+});
+
+
+$(document).ready(function(){
+  $('.expanded').mouseleave(function(){
+    $(this).children('.dropdown').removeClass('active');
+    $(this).next('.dropdown').removeClass('active');
+  });
+});
+
+
 $(function() {
   $(".youtube-video").each(function() {
 // Based on the YouTube ID, we can easily find the thumbnail image
@@ -717,7 +734,12 @@ if (!isMobile) {
     $('#block-cart .dropdown.dropdown-cart .product').jScrollPane();
   });
 
-  
+$(document).ready(function(){
+  $('.lang-dropdown-select').hover(function(){
+    $(this).children('.dropdown').addClass('active');
+    $(this).next('.dropdown').addClass('active');
+  })
+})  
 
 
 $(document).ready(function(){
