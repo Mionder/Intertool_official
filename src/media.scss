@@ -367,7 +367,7 @@
     width: 100%;
   }
 
-  .not-front h1 {
+  #main-content h1 {
     font-family: 'Arial-b';
   }
 
@@ -824,9 +824,9 @@
     }
   }
 
-  .one-sidebar #main-content {
-    width: 100%;
-    margin-left: 0%;
+ #main-content {
+    width: 100% !important;
+    margin-left: 0% !important;
     float: left;
   }
 
