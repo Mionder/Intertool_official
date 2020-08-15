@@ -10,6 +10,7 @@
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import './reset.css';
+import "./media.scss";
 export default {
   name: 'App',
   components: {
@@ -19,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
 
 }
