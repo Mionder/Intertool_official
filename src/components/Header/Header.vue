@@ -189,7 +189,7 @@
                 >
               </li>
             </ul>
-            <div class="logo col-xl-2 col-lg-2 col-md-8 col-sm-7 col-xs-5">
+            <div class="logo col-xl-2 col-lg-2 col-md-8 col-sm-7 col-7">
               <a href=""
                 ><img src="dist/images/logo.png" alt="Logo" title="Intertool"/></a>
             </div>

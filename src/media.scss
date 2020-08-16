@@ -2456,3 +2456,17 @@
       max-width: 95%;
     }
 }
+
+@media(max-width: 440px){
+  .mobile-menu-btn span {
+    width: 33px;
+  }
+  #block-compare,
+  #block-cart {
+    width: 30px;
+  }
+  #header-row-2 span.total{
+    width: 17px;
+    height: 17px;
+  }
+}
