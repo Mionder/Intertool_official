@@ -30,6 +30,9 @@
 }
 
 @media screen and (max-width: 1159px) {
+  #footer-wrap .contact .find a{
+    padding: 3px 8px 3px 23px;
+  }
   .cart-popup .wrap #content {
     padding: 40px 1%;
   }
@@ -161,13 +164,19 @@
       padding: 0 29px;
     }
   }
+  .form-newsletter .form-item{
+    width: 78%;
+  }
+
 }
 
 @media screen and (max-width: 980px) {
   .card_block.add_to_cart .wrap .add-cart a.btn-add-to-cart {
     width: 46%;
   }
-
+  .content #article .field-content .field-text{
+    width: 100%;
+  }
   #form_size .tabs_container ul, #form_size .field-content {
     width: 100%;
   }
@@ -1100,6 +1109,12 @@
   #cart .row .col-2 .price .price-new {
     font-size: 20px;
   }
+  #footer-wrap ul{
+    margin-bottom: 40px;
+  }
+  .form-newsletter {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1261,7 +1276,6 @@
     float: right;
     width: 64%;
   }
-
   #view-catalog .field-content .row {
     width: 32.9%;
     margin: 0 1.8px 12px !important;
@@ -1402,11 +1416,11 @@
     font-size: 25px;
   }
 
-  #footer-wrap .field-content .field-block, .rights {/*footer*/
+  #footer-wrap .field-block, .rights {/*footer*/
     display: none;
   }
 
-  #footer-wrap .field-content {
+  #footer-wrap {
     padding-bottom: 37px;
   }
 
@@ -1486,6 +1500,14 @@
       margin: 0 1% 20px !important;
     }
   }
+  #footer-menu-1,
+  #footer-menu-2,
+  #footer-menu-3,
+  #footer-menu-4,
+  #footer-wrap .rec-calls,
+  #footer-wrap .contact {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -1517,7 +1539,20 @@
     width: 60px;
     height: 60px;
   }
-
+  #newsletter{
+    height: auto;
+  }
+  #newsletter .block-title {
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .form-newsletter{
+    padding-top: 0px;
+  }
+  .form-newsletter .check label{
+    margin-bottom: 20px;
+  }
   .popup-form .field-popup {
     width: 90%;
     padding: 50px 5%;
@@ -1667,7 +1702,7 @@
 
   .logo {
     margin-left: 15px;
-    width: 150px;
+    width: 200px;
     margin-top: 4px;
   }
 
@@ -2413,4 +2448,11 @@
     width: 210px;
     left: -50px;
   }
+}
+
+@media (max-width: 992px){
+  .container {
+      width: unset; 
+      max-width: 95%;
+    }
 }

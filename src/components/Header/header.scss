@@ -366,15 +366,16 @@ header #header-row-2 .region-header .row-1 {
 }
 
 #block-search .form-item-search input {
-  width: 400px;
+  width: 396px;
   padding: 11px 2%;
   border: none;
 }
 
 #block-search .form-item-search .result-search {
   top: 38px;
-  left: 0;
+  left: 0px;
   width: 100%;
+  margin: 0px 15px;
 }
 
 #block-search .form-item-search .result-search a {
@@ -417,6 +418,7 @@ header #header-row-2 .region-header .row-1 {
   padding: 9px 20px 9px 46px;
   display: block;
   color: #fff;
+  max-width: 112px;
 
   &:hover {
     color: $red;
@@ -459,6 +461,15 @@ header #header-row-2 .region-header .row-1 {
   display: block;
   float: left;
   margin: 5px 0 0 4px;
+}
+
+.rtl #block-account a{
+  width: 144px;
+  max-height: 16px;
+}
+
+.rtl #block-account a:hover{
+  color: #B70016;
 }
 
 #block-account {
@@ -526,6 +537,7 @@ header #header-row-2 .region-header .row-1 {
 
 #block-account .dropdown-account li a {
   font-size: 14px;
+  max-height: unset;
 }
 
 #block-account .dropdown-account li.menu-mlid:before {
@@ -803,17 +815,17 @@ header #header-row-3 {
   background: #0B0B0B;
 }
 
-header #header-row-3 .region-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
+// header #header-row-3 .region-header {
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -webkit-box-pack: justify;
+//   -ms-flex-pack: justify;
+//   justify-content: space-between;
+//   -webkit-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+// }
 
 .not-front header #header-row-3 .region-header {
   -webkit-box-pack: start;
@@ -832,6 +844,7 @@ header #header-row-3 .region-header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: 13px 0px;
 }
 
 #breadcrumb ul li a,
@@ -1199,8 +1212,20 @@ span.delimiter {
   }
 }
 
-header #header-row-3 .region-header {
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+// header #header-row-3 .region-header {
+//   -webkit-box-pack: start;
+//   -ms-flex-pack: start;
+//   justify-content: flex-start;
+// }
+
+dl, ol, ul{
+   margin-bottom: 0rem; 
+}
+
+.region-header__new{
+  padding: 18px 0px;
+}
+
+#block-link-share{
+  margin-left: 40px;
 }

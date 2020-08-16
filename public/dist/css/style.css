@@ -249,6 +249,10 @@
 /*-End menu-*/
 
 /*-Start main css-*/
+body{
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+}
 
 body.menu_active {
   overflow: hidden;
@@ -1167,7 +1171,7 @@ input[type=radio]:checked + label:after {
   display: block;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 4px;
 }
 
 input[type=checkbox]:checked + label:before,
@@ -1179,8 +1183,8 @@ input[type=radio]:checked + label:before {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  left: 3px;
-  top: 3px;
+  left: 2px;
+  top: 6px;
   z-index: 2;
 }
 
@@ -2022,7 +2026,7 @@ header #header-row-2 .region-header .row-1 {
 
 #block-account a {
   display: block;
-  width: 140px;
+  width: 160px;
 }
 
 #block-account:after {
@@ -2335,7 +2339,7 @@ header #header-row-3 {
   background: #0B0B0B;
 }
 
-header #header-row-3 .region-header {
+/* header #header-row-3 .region-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2345,7 +2349,7 @@ header #header-row-3 .region-header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
+} */
 
 .not-front header #header-row-3 .region-header {
   -webkit-box-pack: start;
@@ -3985,15 +3989,6 @@ select::-ms-expand {
 }
 
 #newsletter .field-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   height: 110px;
 }
 
@@ -6686,9 +6681,9 @@ form#personal-form .form-actions.green input {
   margin: 10px 0;
 }
 
-#article .field-content .wr_1 {
+.content #article .field-content .wr_1 {
   float: left;
-  width: 20%;
+  width: 23%;
   margin-right: 2%;
 }
 
@@ -6712,6 +6707,11 @@ form#personal-form .form-actions.green input {
 
 #article .field-content .wr_1 .field-soc ul li a {
   font-size: 15px;
+  color: #353535;
+}
+
+#article .field-content .wr_1 .field-soc ul li a:hover{
+  color: #B70016;
 }
 
 #article .field-content .wr_1 .newsletter .block-title {
@@ -6744,9 +6744,9 @@ form#personal-form .form-actions.green input {
   border: none;
 }
 
-#article .field-content .field-text {
+.content #article .field-content .field-text {
   float: left;
-  width: 78%;
+  width: 70%;
 }
 
 #other_article .block-title {
@@ -9688,7 +9688,7 @@ body.store-list {
         flex-wrap: wrap;
   }
 
-  #footer-wrap .field-content .field-block {
+  #footer-wrap .field-block {
     width: 30%;
     margin-bottom: 50px;
   }
@@ -10708,8 +10708,6 @@ body.store-list {
   }
 
   #newsletter .field-content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     text-align: center;
     height: auto;
     padding: 27px 0;

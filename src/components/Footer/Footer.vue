@@ -1,35 +1,36 @@
 <template>
   <footer class="clearfix">
     <div id="newsletter">
-      <div class="layout-center clearfix">
-        <div class="field-content">
-          <div class="block-title">
-            Подпишитесь на НОВОСТИ INTERTOOL <br />
-            получите 5% скидку
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12">
+                <div class="block-title">
+                   Подпишитесь на НОВОСТИ INTERTOOL <br />
+                  получите 5% скидку
+                </div>
+              </div>
+              <form class="col-xl-6 col-lg-6 col-md-7">
+                <div class="form-newsletter">
+                <div class="form-item">
+                  <input type="text" name="" placeholder="Ваш email" />
+                </div>
+                <div class="form-action">
+                  <input type="submit" name="" />
+                </div>
+                <div class="check">
+                  <input type="checkbox" name="" id="data1" checked="checked" />
+                  <label for="data1"><a href="">Согласие</a> на обработку персональных данных</label>
+                </div>
+                </div>
+              </form>
           </div>
-
-          <form class="form-newsletter">
-            <div class="form-item">
-              <input type="text" name="" placeholder="Ваш email" />
-            </div>
-            <div class="form-action">
-              <input type="submit" name="" />
-            </div>
-            <div class="check">
-              <input type="checkbox" name="" id="data1" checked="checked" />
-              <label for="data1"
-                ><a href="">Согласие</a> на обработку персональных данных</label
-              >
-            </div>
-          </form>
-        </div>
       </div>
     </div>
 
     <div id="footer-wrap">
-      <div class="layout-center clearfix">
-        <div class="field-content">
-          <div id="footer-menu-1" class="menu field-block">
+      <div class="container">
+        <div class="row">
+          <div id="footer-menu-1" class="col-xl-2 col-lg-2 col-md-4">
             <div class="block-title">Все про INTERTOOL</div>
             <ul>
               <li><a href="">О нас</a></li>
@@ -38,7 +39,7 @@
               <li><a href="">Каталог товаров</a></li>
             </ul>
           </div>
-          <div id="footer-menu-2" class="menu field-block">
+          <div id="footer-menu-2" class="col-xl-2 col-lg-2 col-md-4">
             <div class="block-title">Сотрудничество</div>
             <ul>
               <li><a href="">INTERTOOL GLOBAL</a></li>
@@ -47,7 +48,7 @@
               <li><a href="">Партнеры</a></li>
             </ul>
           </div>
-          <div id="footer-menu-3" class="menu field-block">
+          <div id="footer-menu-3" class="col-xl-2 col-lg-2 col-md-4">
             <div class="block-title">Сервис</div>
             <ul>
               <li><a href="">Оплата и доставка</a></li>
@@ -57,7 +58,7 @@
               <li><a href="">Сервис</a></li>
             </ul>
           </div>
-          <div id="footer-menu-4" class="menu field-block">
+          <div id="footer-menu-4" class="col-xl-2 col-lg-2 col-md-4">
             <div class="block-title">Блог</div>
             <ul>
               <li><a href="">Видеообзоры</a></li>
@@ -67,7 +68,7 @@
               <li><a href="">Новости</a></li>
             </ul>
           </div>
-          <div class="rec-calls field-block">
+          <div class="rec-calls col-xl-2 col-lg-2 col-md-4">
             <div class="block-title">Прием звонков:</div>
             <p>
               Будние:<br />
@@ -76,7 +77,7 @@
               08:00 - 17:00
             </p>
           </div>
-          <div class="contact field-block">
+          <div class="contact col-xl-2 col-lg-2 col-md-4">
             <div class="block-title">Контакты</div>
             <div class="tel">
               <a href="tel:+38 (067) 828-70-07">+38 (067) 828-70-07</a>
@@ -129,24 +130,24 @@
     </div>
 
     <div id="footer-bottom">
-      <div class="layout-center clearfix">
-        <div class="field-content">
-          <div
-            class="field-block expanded_icon expanded expanded_click"
-            id="block-language-dropdown_footer"
-          >
-            <div class="lang-dropdown-select active">РУ</div>
-            <ul class="dropdown-select-language_child dropdown">
-              <li><a href="">УКР</a></li>
-              <li><a href="">ENG</a></li>
-            </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-2">
+                <div class="field-block expanded_icon expanded expanded_click" id="block-language-dropdown_footer">
+                  <div class="lang-dropdown-select active">РУ</div>
+                  <ul class="dropdown-select-language_child dropdown">
+                    <li><a href="">УКР</a></li>
+                    <li><a href="">ENG</a></li>
+                  </ul>
+                </div>
           </div>
-
-          <div class="field-block rights">
+         <div class="col-xl-8 col-lg-8 col-md-10">
+            <div class="field-block rights">
             intertool.ua - все права защищены. |
             <a href="">Условия использования сайта</a> |
             <a href="">Карта сайта</a>
           </div>
+         </div>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <header>
     <div id="header-row-1">
-      <div class="layout-center clearfix">
+      <div class="container">
         <div class="region-header">
           <div class="field-block telephone expanded expanded_icon">
             <div class="num1">
@@ -67,9 +67,10 @@
     </div>
 
     <div id="header-row-2">
-      <div class="layout-center clearfix">
+      <div class="container">
         <div class="region-header">
-          <div class="row-1">
+         <div class="region-header__new">
+            <div class="row">
             <div class="mobile-menu-btn mobile">
               <span></span>
               <span></span>
@@ -188,13 +189,12 @@
                 >
               </li>
             </ul>
-            <div class="logo">
+            <div class="logo col-xl-2 col-lg-2 col-md-8 col-sm-7 col-xs-5">
               <a href=""
-                ><img src="dist/images/logo.png" alt="Logo" title="Intertool"
-              /></a>
+                ><img src="dist/images/logo.png" alt="Logo" title="Intertool"/></a>
             </div>
 
-            <div id="block-search" class="field-block field-block-search">
+            <div id="block-search" class="field-block col-xl-4 col-lg-4 field-block-search">
               <form>
                 <div class="form-item form-item-search">
                   <input type="" name="" placeholder="Найти товар" />
@@ -211,7 +211,7 @@
               </form>
             </div>
 
-            <div id="block-link-share" class="field-block">
+            <div id="block-link-share" class="field-block col-xl-2 col-lg-2">
               <a href="">Акции</a>
             </div>
 
@@ -384,13 +384,14 @@
               </div>
             </div>
           </div>
+         </div>
         </div>
       </div>
     </div>
     <div id="header-row-3">
-      <div class="layout-center clearfix">
-        <div class="region-header">
-          <div id="block-menu-2" class="">
+      <div class="container">
+        <div class="row">
+          <div id="block-menu-2" class="col-lg-2">
             <ul class="menu">
               <li class="expanded expanded-link menu-mlid-">
                 <span href=""
@@ -525,7 +526,7 @@
             </ul>
           </div>
 
-          <div id="breadcrumb" class="">
+          <div id="breadcrumb" class="col-lg-6">
             <div class="layout-center">
               <ul>
                 <li>

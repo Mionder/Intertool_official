@@ -598,10 +598,7 @@
 	 #catalog-categories .field-content .row .field-title a {
 		 font-size: 11px;
 	}
-	 #footer-wrap .field-content {
-		 flex-wrap: wrap;
-	}
-	 #footer-wrap .field-content .field-block {
+	 #footer-wrap .field-block {
 		 width: 30%;
 		 margin-bottom: 50px;
 	}
@@ -1151,11 +1148,11 @@
 	 .total-summ .col-1 {
 		 font-size: 25px;
 	}
-	 #footer-wrap .field-content .field-block, .rights {
+	 #footer-wrap .field-block, .rights {
 		/*footer*/
 		 display: none;
 	}
-	 #footer-wrap .field-content {
+	 #footer-wrap {
 		 padding-bottom: 37px;
 	}
 	 #footer-wrap .mobile {
@@ -1366,19 +1363,19 @@
 	}
 	 .logo {
 		 margin-left: 15px;
-		 width: 150px;
+		 width: 200px;
 		 margin-top: 4px;
 	}
-	 #newsletter .field-content {
+	 #newsletter{
 		 flex-wrap: wrap;
 		 text-align: center;
-		 height: auto;
+		 height: unset;
 		 padding: 27px 0;
 	}
-	 #newsletter .field-content .block-title, #newsletter .field-content .form-newsletter {
+	 #newsletter .block-title, #newsletter.form-newsletter {
 		 width: 100%;
 	}
-	 #newsletter .field-content .block-title {
+	 #newsletter .block-title {
 		 margin-bottom: 20px;
 		 font-size: 15px;
 	}
@@ -1424,7 +1421,7 @@
 	 #bottom-info .field-content .title {
 		 margin-bottom: 15px;
 	}
-	 #footer-wrap .field-content .field-block {
+	 #footer-wrap  .field-block {
 		 width: 100%;
 		 margin-bottom: 50px;
 		 text-align: center;
