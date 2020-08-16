@@ -387,7 +387,6 @@
         </div>
       </div>
     </div>
-
     <div id="header-row-3">
       <div class="layout-center clearfix">
         <div class="region-header">

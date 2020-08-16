@@ -4477,6 +4477,7 @@ footer {
 
 .account_form {
   width: 400px;
+  margin: 0 auto;
 }
 
 .account_form .block_title {

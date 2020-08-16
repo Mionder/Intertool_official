@@ -3,6 +3,9 @@
     The following CSS is consistent between example themes and should not be altered.
 */
 
+#colorbox{
+  display: none;
+}
 #colorbox, #cboxOverlay, #cboxWrapper {
   position: absolute;
   top: 0;

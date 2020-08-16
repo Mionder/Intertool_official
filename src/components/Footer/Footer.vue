@@ -385,6 +385,62 @@
         </div>
       </div>
     </div>
+    <div style="display: none;">
+      <div class="registration account_form" id="registration">
+			<div class="block_title">Регистрация</div>
+			<form>
+				<div class="form-item">
+					<input type="text" name="" placeholder="ФИО">
+				</div>
+				<div class="form-item">
+					<input type="email" name="" placeholder="Телефон или email">
+				</div>
+				<div class="form-item password">
+					<input type="password" name="" placeholder="Пароль">
+					<a href="#" class="forget">Показать пароль?</a>
+				</div>
+				<div class="form-action">
+					<input type="submit" name="" value="Зарегистрироваться">
+				</div>
+				<div class="login_social">
+					<div class="title">или регистрация через:</div>
+					<div class="login">
+						<a href="" class="fa"></a>
+						<a href="" class="gm"></a>
+					</div>
+				</div>
+				<div class="registered">
+					<div class="text">
+						Уже регестрировались?
+					</div>
+					<a href="#" class="login">Войти</a>
+				</div>
+			</form>
+		</div>
+    <div class="entry account_form" id="entry">
+			<div class="block_title">Вход в интернет-магазин</div>
+			<form>
+				<div class="form-item">
+					<input type="text" name="" placeholder="Телефон или email">
+				</div>
+				<div class="form-item password">
+					<input type="password" name="" placeholder="Пароль">
+					<a href="#" class="forget">Забыли пароль?</a>
+				</div>
+				<div class="form-action">
+					<input type="submit" name="" value="Войти в личный кабинет">
+					<a href="#" class="registration">Зарегистрироваться</a>
+				</div>
+				<div class="login_social">
+					<div class="title">или регистрация через:</div>
+					<div class="login">
+						<a href="" class="fa"></a>
+						<a href="" class="gm"></a>
+					</div>
+				</div>
+			</form>
+		</div>
+    </div>
   </footer>
 </template>
 
