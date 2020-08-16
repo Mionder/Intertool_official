@@ -172,6 +172,7 @@
     width: 100%;
   }
 
+
   #form_size .tabs_container ul li a {
     text-align: center;
     padding: 10px 0;
@@ -897,8 +898,8 @@
     display: none;
   }
 
-  .contact #region-top {
-    height: 293px;
+  #region-top {
+    height: 293px !important;
   }
 
   #sec-2 .field-content .row {
@@ -1775,12 +1776,13 @@
     }
   }
 
-  .contact #region-top h1 {
-    font-size: 28px;
+  #region-top h1 {
+    font-size: 28px !important;
+    font-family: 'Arial-b' !important;
   }
 
-  .contact #region-top h3 {
-    font-size: 16px;
+  #region-top h3 {
+    font-size: 16px !important;
   }
 
   #region-top .r-calls .row {
