@@ -9097,7 +9097,7 @@ body.store-list {
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 992px) {
   .card_block.add_to_cart .wrap .add-cart a.btn-add-to-cart {
     width: 46%;
   }

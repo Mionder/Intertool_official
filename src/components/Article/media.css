@@ -127,10 +127,13 @@
 		 padding: 0 29px;
 	}
 }
- @media screen and (max-width: 980px) {
+ @media screen and (max-width: 992px) {
 	.two-column #sidebar{
 		width: 100%;
 		margin-top: 20px;
+	}
+	.content #article .field-text{
+		width: 100%;
 	}
 	 .card_block.add_to_cart .wrap .add-cart a.btn-add-to-cart {
 		 width: 46%;

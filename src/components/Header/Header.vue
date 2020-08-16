@@ -194,7 +194,7 @@
                 ><img src="dist/images/logo.png" alt="Logo" title="Intertool"/></a>
             </div>
 
-            <div id="block-search" class="field-block col-xl-4 col-lg-4 field-block-search">
+            <div id="block-search" class="field-block col-xl-4 col-lg-4 col-md-2 field-block-search">
               <form>
                 <div class="form-item form-item-search">
                   <input type="" name="" placeholder="Найти товар" />
@@ -211,7 +211,7 @@
               </form>
             </div>
 
-            <div id="block-link-share" class="field-block col-xl-2 col-lg-2">
+            <div id="block-link-share" class="field-block col-xl-2 col-lg-2 col-md-2">
               <a href="">Акции</a>
             </div>
 

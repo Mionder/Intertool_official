@@ -170,15 +170,21 @@
 
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 992px) {
   .card_block.add_to_cart .wrap .add-cart a.btn-add-to-cart {
     width: 46%;
   }
-  .content #article .field-content .field-text{
-    width: 100%;
+  .content #article .field-text{
+    width: 100% !important;
   }
   #form_size .tabs_container ul, #form_size .field-content {
     width: 100%;
+  }
+  #newsletter .form-newsletter{
+    width: 100%;
+  }
+  #newsletter{
+    height: auto;
   }
 
   #form_size .tabs_container ul li a {
@@ -187,7 +193,7 @@
   }
 
   #sidebar.order-page {
-    width: 100%;
+    width: 100% !important;
   }
 
   .mobile.imp {

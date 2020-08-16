@@ -4,10 +4,14 @@ import VueRouter from "vue-router";
 
 import Article from "./components/Article/Article.vue";
 import About from "./components/About/About.vue";
+import Account from "./components/Account/Account.vue";
+import Order from "./components/Order/Order.vue";
 
 const routes = [
   { path: "/", component: Article },
   { path: "/about", component: About },
+  { path: "/account", component: Account },
+  { path: "/order", component: Order}
 ];
 
 const router = new VueRouter({
