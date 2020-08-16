@@ -2022,11 +2022,7 @@ header #header-row-2 .region-header .row-1 {
 
 #block-account a {
   display: block;
-  width: 140px;
-}
-
-#block-account:after {
-  top: 17px;
+  width: 160px;
 }
 
 #block-account .dropdown-account {
@@ -2335,17 +2331,17 @@ header #header-row-3 {
   background: #0B0B0B;
 }
 
-header #header-row-3 .region-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
+// header #header-row-3 .region-header {
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -webkit-box-pack: justify;
+//   -ms-flex-pack: justify;
+//   justify-content: space-between;
+//   -webkit-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+// }
 
 .not-front header #header-row-3 .region-header {
   -webkit-box-pack: start;
@@ -3985,12 +3981,6 @@ select::-ms-expand {
 }
 
 #newsletter .field-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -6687,7 +6677,7 @@ form#personal-form .form-actions.green input {
 
 #article .field-content .wr_1 {
   float: left;
-  width: 20%;
+  width: 30%;
   margin-right: 2%;
 }
 
@@ -6745,7 +6735,7 @@ form#personal-form .form-actions.green input {
 
 #article .field-content .field-text {
   float: left;
-  width: 78%;
+  width: 70%;
 }
 
 #other_article .block-title {
@@ -9687,7 +9677,7 @@ body.store-list {
         flex-wrap: wrap;
   }
 
-  #footer-wrap .field-content .field-block {
+  #footer-wrap .field-block {
     width: 30%;
     margin-bottom: 50px;
   }
@@ -10707,7 +10697,6 @@ body.store-list {
   }
 
   #newsletter .field-content {
-    -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     text-align: center;
     height: auto;

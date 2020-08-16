@@ -1,21 +1,17 @@
 #newsletter {
 	background: $red;
-}
-
-#newsletter .field-content {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	height: 110px;
 }
 
 #newsletter .block-title {
 	font-size: 18px;
 	color: #fff;
+	padding: 25px 0px;
 }
 
 .form-newsletter {
 	width: 530px;
+	padding: 15px 0px;
 }
 
 .form-newsletter .form-item {
@@ -33,7 +29,7 @@
 	border: none;
 	padding: 14px 5% 15px;
 	width: 100%;
-}
+  }
 
 .form-newsletter .form-action input {
 	background-image: url(/dist/images/arrow-newsletter.png);
@@ -74,6 +70,7 @@ footer {
 #footer-wrap {
 	background: #000;
 	color: #fff;
+	padding: 35px 0 80px;
 }
 
 #footer-wrap a {
@@ -91,19 +88,13 @@ footer {
 	padding: 35px 0 80px;
 }
 
-#footer-wrap .field-content .field-block {
-	width: 16.7%;
-}
-
-#footer-wrap .field-content .field-block .block-title {
+#footer-wrap .block-title {
 	font-weight: bold;
 	font-size: 14px;
 	margin-bottom: 10px;
 }
 
-#footer-wrap .field-content .menu li {}
-
-#footer-wrap .field-content .contact .find a {
+#footer-wrap .contact .find a {
 	background: $red;
 	position: relative;
 	display: inline-block;
@@ -112,7 +103,7 @@ footer {
 	color: #fff;
 }
 
-#footer-wrap .field-content .contact .find a:before {
+#footer-wrap .contact .find a:before {
 	content: '';
 	width: 10px;
 	height: 13px;
