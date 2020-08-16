@@ -441,11 +441,246 @@
 			</form>
 		</div>
     </div>
+
+  <div class="popup-form popup-form-1" style="display: none;">
+	<div class="field-popup" id="contact_form"><div class="close"></div>
+		<form  id="webform-1" method="" action="">
+			<div class="block-title">Оптовым клиентам</div>
+			<div class="wrap-webform wrap-webform-1">
+				<div class="form-item form-item-name">
+					<input type="text" name="" placeholder="ФИО">
+				</div>
+				<div class="form-item form-item-number">
+					<input type="text" name="" placeholder="Ваш телефон (поле обязательное)">
+				</div>
+				<div class="form-item form-item-email">
+					<input type="email" name="" placeholder="Ваш email (поле обязательное)">
+				</div>
+				<div class="form-item form-item-textarea">
+					<textarea placeholder="Cообщение"></textarea>
+				</div>
+				<div class="check">
+					<input type="checkbox" name="" id="data2" checked="checked">			
+						<label for="data2"><a href="">Согласие</a> на обработку персональных данных</label>
+				</div>
+
+				<div class="form-action">
+					<input class="btn red" type="submit" name="" value="Отправить">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="popup-form popup-form-2" style="display: none;">
+	<div class="field-popup"><div class="close"></div>
+		<div class="block-title">
+			Спасибо за подписку
+		</div>
+		<div id="subscription-form" class="content">
+			<div class="field-subscription-1">За подписку вы получаете <span>-5%</span></div>
+			<div class="field-subscription-2">на любой выбранный товар по промокоду:</div>
+			<div class="field-subscription-promo-code">548ХА</div>
+			<div class="field-subscription-3">Внимание промокод действителен только 48 часов, успейте воспользоваться</div>
+		</div>
+	</div>	
+</div>
+
+
+<div class="popup-form popup-form-3" style="display: none;">
+	<div class="field-popup"><div class="close"></div>
+		<div class="block-title">
+			Спасибо за заказ
+		</div>
+		<div id="order-form" class="content">
+			<div class="order-number">Номер заказа: <span>1540аа</span></div>
+			<div class="order-date">Дата доставки: 15.05.2019</div>
+			<div class="order-summ">Сумма  заказа: 1554 грн.</div>
+			<div class="action">
+				<a href="" class="shopping btn red">Продолжить покупки</a>
+				<a href="" class="contact">Связаться с нами</a>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+<div class="popup-form popup-form-4" style="display: none;">
+	<div class="field-popup newsletter"><div class="close"></div>
+		<div id="newsletter-form" class="content">
+		<div class="block-title">
+			Подписаться на рассылку
+		</div>
+			<div class="field-newsletter-1">За подписку вы получаете -5%</div>
+			<form id="webform-ewsletter">
+				<div class="form-item form-item-email">
+					<input type="email" name="" placeholder="ваш e-mail">
+				</div>
+				<div class="form-action">
+					<input class="btn red" type="submit" name="" value="подписаться">
+				</div>
+				<div class="check white">
+					<input type="checkbox" name="" id="data" checked="checked">			
+						<label for="data"><a href="">Согласие</a> на обработку персональных данных</label>
+				</div>
+			</form>
+		</div>
+	</div>	
+</div>
+
+
+<div class="popup-form popup-form-5" style="display: none;">
+	<div class="field-popup"><div class="close close-video"></div>
+		<div id="about-form" class="content">
+			<div class="video">
+				<div class="mb-device youtube-video vy-1" id="z0BvL8p6kFg"></div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+<div style="display: none;">
+		<div class="info_delivery" id="info_delivery" >
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+		<div class=" info_payment_method" id="info_payment_method" >
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+		<div class="info_bonus" id="info_bonus" >
+			<div class="block_title_popup">Информация по бонусам</div>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+
+		<div class="info_status" id="info_status" >
+			<div class="block_title_popup">Информация о статусах</div>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+
+
+		<div class="info_garant" id="info_garant" >
+			<div class="block_title_popup">Информация о гарантии</div>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+
+
+		<div class="registration account_form" id="registration">
+			<div class="block_title">Регистрация</div>
+			<form>
+				<div class="form-item">
+					<input type="text" name="" placeholder="ФИО">
+				</div>
+				<div class="form-item">
+					<input type="email" name="" placeholder="Телефон или email">
+				</div>
+				<div class="form-item password">
+					<input type="password" name="" placeholder="Пароль">
+					<a href="#" class="forget">Показать пароль?</a>
+				</div>
+				<div class="form-action">
+					<input type="submit" name="" value="Зарегистрироваться">
+				</div>
+				<div class="login_social">
+					<div class="title">или регистрация через:</div>
+					<div class="login">
+						<a href="" class="fa"></a>
+						<a href="" class="gm"></a>
+					</div>
+				</div>
+				<div class="registered">
+					<div class="text">
+						Уже регестрировались?
+					</div>
+					<a href="#" class="login">Войти</a>
+				</div>
+			</form>
+		</div>
+
+		<div class="entry account_form" id="entry">
+			<div class="block_title">Вход в интернет-магазин</div>
+			<form>
+				<div class="form-item">
+					<input type="text" name="" placeholder="Телефон или email">
+				</div>
+				<div class="form-item password">
+					<input type="password" name="" placeholder="Пароль">
+					<a href="#" class="forget">Забыли пароль?</a>
+				</div>
+				<div class="form-action">
+					<input type="submit" name="" value="Войти в личный кабинет">
+					<a href="#" class="registration">Зарегистрироваться</a>
+				</div>
+				<div class="login_social">
+					<div class="title">или регистрация через:</div>
+					<div class="login">
+						<a href="" class="fa"></a>
+						<a href="" class="gm"></a>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		
+
+
+		<div id="order_popup" class=""><div class="close"></div>
+			<div class="block-title">
+				
+			</div>
+			<div id="order-form" class="content">
+				<div class="text">
+					Для оформления заказа необходимо <br>
+					ввести конктактные данные <br>
+					или <a href="">войти в личный кабинет</a>
+				</div>
+				<div class="action">
+					<a href="" class="shopping btn red">Заполнить данные</a>
+					<a href="" class="contact">Связаться с нами</a>
+				</div>
+			</div>
+		</div>	
+</div>
+
+
   </footer>
 </template>
 
 <script>
 import "./footer.scss";
+import "./form.scss";
 export default {};
 </script>
 
