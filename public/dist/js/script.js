@@ -148,6 +148,9 @@ $(document).ready(function() {
   $("a.popup-1").on("click", function() {
     $(".popup-form-1").fadeIn();
   });
+  $("#contact_form .close").on("click", function(){
+    $(".popup-form-1").fadeOut();
+  })
   if (!isMobile) {
     $("#block-cart .dropdown.dropdown-cart .product").jScrollPane();
   }
